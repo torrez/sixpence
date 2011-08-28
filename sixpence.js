@@ -7,7 +7,6 @@
       var query_string = 'http://search.twitter.com/search.json?q=from:' + screen_name + '%20' + encodeURIComponent(url);
 
       $.get(query_string, function(data) {
-        var output = '';
         if (data && data.results && data.results.length > 0){
           var search = data.results[0];
           var output = '';
