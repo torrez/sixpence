@@ -20,6 +20,7 @@
           output += 'src=\'http://si0.twimg.com/images/dev/cms/intents/icons/reply.png\' /> Reply</a></p>';
           output += '</div>';
           $this.append(output);
+          $this.show();
         } else {
           $this.html('');
           $this.hide();
