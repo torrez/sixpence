@@ -18,6 +18,7 @@
           output += 'src=\'http://si0.twimg.com/images/dev/cms/intents/icons/retweet.png\' /> Retweet</a> ';
           output += '<a href=\'http://twitter.com/intent/tweet?in_reply_to='+ search.id_str + '\'><img ';
           output += 'src=\'http://si0.twimg.com/images/dev/cms/intents/icons/reply.png\' /> Reply</a></p>';
+          output += '<a href="http://github.com/torrez/sixpence">sixpence</a>';
           output += '</div>';
           $this.append(output);
           $this.show();
